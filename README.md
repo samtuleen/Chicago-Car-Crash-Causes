@@ -81,22 +81,32 @@ I began by running a train-test-split to check for data leakage. After exploring
 I've tested the following models: Logistic Regression, Decision Trees, KNN (K-Nearest Neighbors), and Random Forest.
 
 My Logistic Regression model produced accuracy rate of 92%. The confusion matrix displays that when the model predicted 0 (no injuries) and the result was no injuries, the model was correct 81% of the time, and when predicting 1 (injury) and the result was injury, it was correct 96% of the time.
+<img width="455" alt="log_reg_test" src="https://user-images.githubusercontent.com/71333855/117534459-2cc64780-afb7-11eb-9b95-f5aa97604b11.png">
+
 
 
 ## iNterpretation
 
 I plotted the chart below by extracting the 'feature_importance' from the bagging classifier.
+![feature_importance](https://user-images.githubusercontent.com/71333855/117534431-0e604c00-afb7-11eb-8e28-d44a463e9493.png)
+
 
 The most important observation from this chart is that most car accidents involve drivers colliding with non-motor vehicular travelers (pedestrians and cyclists). 
 
 Also, the vehicle_type column could help inform which type of vehicles are most likely to get into a traffic accident, however a significant amount of information is missing.
 
 
-Another interesting observation is that the majority of accidents occur in speed zones over 25mph and under 45mph, as displaye din the figure below:
+Another interesting observation is that the majority of accidents occur in speed zones over 25mph and under 45mph, as displayed in the figure below:
+![speed_limit_bins](https://user-images.githubusercontent.com/71333855/117534408-eec92380-afb6-11eb-8039-c3deef43b25a.png)
+
 
 Additionally, the majority of severe car crashes occur during rush hour:
+![time_bins_injuries](https://user-images.githubusercontent.com/71333855/117534417-f983b880-afb6-11eb-9ec0-45f35ddf87dd.png)
+
 
 And most occur on Saturdays:
+![crash_day_injuries](https://user-images.githubusercontent.com/71333855/117534425-01435d00-afb7-11eb-9f27-5d227e8b6a15.png)
+
 
 ## Conclusion:
 
