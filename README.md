@@ -2,7 +2,7 @@
 
 ## By: Sameeha Ramadhan
 
-The goal of this analysis is to examine and determine what causes car accidents in Chicago that result in injuries. The data used are the Chicago Car Crash datasets and is processed and filtered to reflect crashes that occured in 2021 alone.
+The goal of this analysis is to examine and determine what causes injury resulting car accidents in the city of Chicago. The data used are the Chicago Car Crash datasets and is processed and filtered to reflect crashes that occured in 2021 alone.
 
 I will be using data from the City of Chicago website to build a classification model that can help predict why car accidents occur, as well as identify a number of trends from the accidents. Doing so can aid the city in taking the correct measures to help prevent accidents, and their resulting injuries, from occurring.
 
