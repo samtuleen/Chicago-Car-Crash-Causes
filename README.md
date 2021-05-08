@@ -1,4 +1,4 @@
-# Chicago Car Crashes: Analysing the Causes of The City's Traffic Accidents
+# Chicago Car Crashes: Analyzing the Causes of The City's Traffic Accidents
 
 ## By: Sameeha Ramadhan
 
