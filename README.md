@@ -105,6 +105,7 @@ Additionally, the majority of severe car crashes occur during rush hour:
 
 
 And most occur on Saturdays:
+
 ![crash_day_injuries](https://user-images.githubusercontent.com/71333855/117534425-01435d00-afb7-11eb-9f27-5d227e8b6a15.png)
 
 
